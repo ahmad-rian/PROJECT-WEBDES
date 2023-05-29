@@ -1,0 +1,26 @@
+#accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    }
+    /* Add a hover effect to the buttons */
+    button:hover {
+    background-color: #ccc;
+    }
+    /* Style the accordion panel. Note: hidden by default */
+    #panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: scroll;
+    }
+    /* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the appropriate content */
+    .active,.show {
+    display: block;
+    }
